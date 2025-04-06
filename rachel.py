@@ -7,7 +7,7 @@ st.set_page_config(
     initial_sidebar_state="expanded"
     
 )
-
+st.logo("content/BubbleTea.ico")
 a,b=st.tabs(["Need love ? ","Need wisdom ? "])
 
 
