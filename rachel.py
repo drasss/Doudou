@@ -18,7 +18,7 @@ def recup(path):
       dat=dat.split("\n")
       return dat
 love=recup("love.txt")
-wisdom=recup("Wisdom.txt")
+wisdom=recup("wisdom.txt")
 #                 A   -   Love
 l_text=""
 love_b=a.button("Click here for some love")
