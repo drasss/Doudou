@@ -24,7 +24,7 @@ l_text=""
 love_b=a.button("Click here for some love")
 
 if love_b:
-      l_text=love[random.randint(0,len(love))]
+      l_text=love[random.randint(0,len(love)-1)]
 a.text(l_text)
 
 #                 B   -   Wisdom
@@ -32,9 +32,7 @@ w_text=""
 wisdom_b=b.button("Click here for some wisdom")
 
 if wisdom_b:
-      index_w=random.randint(0,len(wisdom))
-      b.text(str(index_w))
-      w_text=wisdom[index_w]
+      w_text=wisdom[random.randint(0,len(wisdom)-1)]
       
 b.text(w_text)
 
