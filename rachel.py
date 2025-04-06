@@ -2,12 +2,12 @@ import streamlit as st
 import random
 st.set_page_config(
     page_title="It's ok sweetheart",
-    page_icon="❤️",
     layout="wide",
+    page_icon="content/BubbleTea.ico",
     initial_sidebar_state="expanded"
     
 )
-st.logo("content/BubbleTea.ico")
+
 a,b=st.tabs(["Need love ? ","Need wisdom ? "])
 
 
