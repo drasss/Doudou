@@ -32,6 +32,9 @@ w_text=""
 wisdom_b=b.button("Click here for some wisdom")
 
 if wisdom_b:
-      w_text=wisdom[random.randint(0,len(wisdom))]
+      index_w=random.randint(0,len(wisdom))
+      b.text(str(index_w))
+      w_text=wisdom[index_w]
+      
 b.text(w_text)
 
